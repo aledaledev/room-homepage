@@ -1,0 +1,13 @@
+%center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+%a-transform {
+  text-decoration: underline 0.1rem #ffffff00;
+  text-underline-offset: 0.1rem;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+  &:hover {
+    text-underline-offset: 0.3rem;
+  }
+}

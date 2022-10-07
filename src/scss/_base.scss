@@ -1,0 +1,15 @@
+@use "./variables";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    color: variables.$black;
+}
+body{
+    background-color: variables.$white;
+    font-family: variables.$league-spartan;
+}
